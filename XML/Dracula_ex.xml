@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dracula</title>
+        <editor>Travis White</editor>
+        <sponsor>Humanist Data Lab, UBC Okanagan</sponsor>
+        <funder>Social Science and Humanities Council of Canada</funder>
+        <principal>Constance Crompton</principal>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence>CC_BY_4.0</licence>
+          <p>Published alongside xslts to demonstrate how to convert TEI into Cypher to populate a
+            Neo4j graph database</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <title>Dracula</title>
+            <author><persName>Bram Stoker</persName></author>
+            <imprint>
+              <publisher>Grosset &amp; Dunlap</publisher>
+              <pubPlace>Garden City, New York</pubPlace>
+              <date>1897</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl>
+          <idno type="gutenburg">345</idno>
+          <ptr target="https://www.gutenberg.org/ebooks/345"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="novel">
+        <head>DRACULA</head>
+
+        <div type="chapter" n="1">
+          <head>CHAPTER I JONATHAN HARKER'S JOURNAL</head>
+          <opener>(_Kept in shorthand._)</opener>
+
+          <p n="1"> _<date when="--05-03" type="central">3 May</date>. <placeName
+              corresp="geo.xml#BIS" type="central">Bistritz</placeName>._--Left <placeName
+              corresp="geo.xml#MUN">Munich</placeName> at <time when="20:35:00">8:35 P. M.</time>,
+            on <date when="--05-01">1st May</date>, arriving at <placeName corresp="geo.xml#VIE"
+              >Vienna</placeName> early next morning; should have arrived at <time when="06:46:00"
+              >6:46</time>, but train was an hour late. <placeName corresp="geo.xml#BUD"
+              >Buda-Pesth</placeName> seems a wonderful place, from the glimpse which I got of it
+            from the train and the little I could walk through the streets. I feared to go very far
+            from the station, as we had arrived late and would start as near the correct time as
+            possible. The impression I had was that we were leaving the West and entering the East;
+            the most western of splendid bridges over the <geogName corresp="geo.xml#DAN"
+              >Danube</geogName>, which is here of noble width and depth, took us among the
+            traditions of Turkish rule.</p>
+
+          <p n="2">We left in pretty good time, and came after nightfall to <placeName
+              corresp="geo.xml#KLA">Klausenburgh</placeName>. Here I stopped for the night at the
+              <placeName corresp="geo.xml#HROY">Hotel Royale</placeName>. I had for dinner, or
+            rather supper, a chicken done up some way with red pepper, which was very good but
+            thirsty. (_Mem._, get recipe for Mina.) I asked the waiter, and he said it was called
+            "paprika hendl," and that, as it was a national dish, I should be able to get it
+            anywhere along the <geogName corresp="geo.xml#CAR">Carpathians</geogName>. I found my
+            smattering of German very useful here; indeed, I don't know how I should be able to get
+            on without it.</p>
+
+          <p n="3">Having had some time at my disposal when in <placeName corresp="geo.xml#LON"
+              >London</placeName>, I had visited the <placeName corresp="geo.xml#BMUS">British
+              Museum</placeName>, and made search among the books and maps in the library regarding
+              <placeName corresp="geo.xml#TRA">Transylvania</placeName>; it had struck me that some
+            foreknowledge of the country could hardly fail to have some importance in dealing with a
+            nobleman of that country. I find that the district he named is in the extreme east of
+            the country, just on the borders of three states, Transylvania, <placeName
+              corresp="geo.xml#MOL">Moldavia</placeName> and <placeName corresp="geo.xml#BUK"
+              >Bukovina</placeName>, in the midst of the <geogName corresp="geo.xml#CAR">Carpathian
+              mountains</geogName>; one of the wildest and least known portions of <placeName
+              corresp="geo.xml#EUR">Europe</placeName>. I was not able to light on any map or work
+            giving the exact locality of the <placeName corresp="geo.xml#CDRA">Castle
+              Dracula</placeName>, as there are no maps of this country as yet to compare with our
+            own Ordnance Survey maps; but I found that <placeName corresp="geo.xml#BIS"
+              >Bistritz</placeName>, the post town named by Count Dracula, is a fairly well-known
+            place. I shall enter here some of my notes, as they may refresh my memory when I talk
+            over my travels with Mina.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>geo.xml: A non-exhaustive list of places and geographic features from Dracula</title>
+        
+        <editor>Travis White</editor>
+        <sponsor>Humanist Data Lab, UBC Okanagan</sponsor>
+        <funder>Social Science and Humanities Council of Canada</funder>
+        <principal>Constance Crompton</principal>
+      </titleStmt>
+      <publicationStmt>
+        <availability>
+          <licence>CC_BY_4.0</licence>
+          <p>Published alongside xslts to demonstrate how to convert TEI into Cypher to populate a
+            Neo4j graph database</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        
+       <p>Born Digital</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader><text>
+  <body>
+    <listPlace>
+      
+      <listPlace type="continent">
+        
+        <place type="continent" xml:id="EUR">
+          <placeName>Europe</placeName>
+        </place>
+        
+      </listPlace>
+
+      <listPlace type="country">
+
+        <place type="country" xml:id="AUS">
+          <placeName>Austria</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="country" xml:id="ENG">
+          <placeName>England</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="country" xml:id="GER">
+          <placeName>Germany</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="country" xml:id="HUN">
+          <placeName>Hungary</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="country" xml:id="MOLD">
+          <placeName>Moldova</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="country" xml:id="ROM">
+          <placeName>Romania</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="country" xml:id="UKR">
+          <placeName>Ukraine</placeName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+      </listPlace>
+
+      <listPlace type="past-region">
+
+        <place type="region" xml:id="BUK">
+          <placeName>Bukovina</placeName>
+          <location>
+            <region corresp="#MOLD"/>
+            <region corresp="#UKR"/>
+          </location>
+        </place>
+
+        <place type="region" xml:id="MOL">
+          <placeName>Moldavia</placeName>
+          <location>
+            <region corresp="#ROM"/>
+            <region corresp="#MOLD"/>
+            <region corresp="#UKR"/>
+          </location>
+        </place>
+
+        <place type="region" xml:id="TRA">
+          <placeName>Transylvania</placeName>
+          <location>
+            <region corresp="#ROM"/>
+          </location>
+        </place>
+
+      </listPlace>
+
+      <listPlace type="city">
+
+        <place type="city" xml:id="BIS">
+          <placeName>Bistritz</placeName>
+          <location>
+            <region corresp="#TRA"/>
+          </location>
+        </place>
+
+        <place type="city" xml:id="BUD">
+          <placeName>Budapest</placeName>
+          <location>
+            <region corresp="#HUN"/>
+          </location>
+        </place>
+
+        <place type="city" xml:id="KLA">
+          <placeName>Klausenburgh</placeName>
+          <location>
+            <region corresp="#TRA"/>
+          </location>
+        </place>
+
+        <place type="city" xml:id="LON">
+          <placeName>London</placeName>
+          <location>
+            <region corresp="#ENG"/>
+          </location>
+        </place>
+
+        <place type="city" xml:id="MUN">
+          <placeName>Munich</placeName>
+          <location>
+            <region corresp="#GER"/>
+          </location>
+        </place>
+
+        <place type="city" xml:id="VIE">
+          <placeName>Vienna</placeName>
+          <location>
+            <region corresp="#AUS"/>
+          </location>
+        </place>
+
+
+
+      </listPlace>
+
+      <listPlace type="geo-feature">
+
+        <place type="mountain-range" xml:id="CAR">
+          <geogName>Carpathian Mountains</geogName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+        <place type="river" xml:id="DAN">
+          <geogName>Danube River</geogName>
+          <location>
+            <region corresp="#EUR"/>
+          </location>
+        </place>
+
+      </listPlace>
+
+
+      <listPlace type="sub-city">
+
+        <place type="museum" xml:id="BMUS">
+          <placeName>British Museum</placeName>
+          <location>
+            <region corresp="#LON"/>
+          </location>
+        </place>
+
+        <place type="castle" xml:id="CDRA">
+          <placeName>Castle Dracula</placeName>
+          <location>
+            <region corresp="#BIS"/>
+          </location>
+        </place>
+
+        <place type="hotel" xml:id="HROY">
+          <placeName>Hotel Royale</placeName>
+          <location>
+            <region corresp="#KLA"/>
+          </location>
+        </place>
+      </listPlace>
+      
+    </listPlace>
+
+
+
+
+  </body></text>
+</TEI>
